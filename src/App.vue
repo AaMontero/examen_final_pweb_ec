@@ -1,16 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <BuscarDisponibles></BuscarDisponibles>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BuscarDisponibles from './components/BuscarDisponibles.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    BuscarDisponibles,
+    BuscarDisponibles
+}
 }
 </script>
 
